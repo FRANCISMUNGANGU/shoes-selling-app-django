@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    {#    allows us to load static files #}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container mt-3">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Shoe name</th>
+        <th>Shoe image</th>
+        <th>Shoe price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for shoes in shoes %}
+
+      <tr>
+        <td>{{ shoes.shoes_name }}</td>
+        <td><img src="{{ shoes.shoes_image }}" width="100" height="100"></td>
+        <td>{{ shoes.shoes_price }}</td>
+        <td>
+            <a href="/edit/{{ shoes.id }}"><span class="glyphicon glyphicon-pencil" >Edit</span></a>
+            <a href="/delete/{{ shoes.id }}">Delete</a>
+        </td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+  <br>
+  <center><a href="/shoes" class="btn btn-primary">Add New Record</a></center>
+</div>
+</body>
+</html>

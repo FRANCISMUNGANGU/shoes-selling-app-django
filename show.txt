@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Records</title>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+</head>
+<body>
+<table class="table table-striped table-bordered table-sm">
+    <thead class="thead-dark">
+    <tr>
+        <th>Employee ID</th>
+        <th>Employee Name</th>
+        <th>Employee Email</th>
+        <th>Employee Contact</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+
+{% for employee in employees %}
+    <tr>
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.employee_name }}</td>
+        <td>{{ employee.employee_email }}</td>
+        <td>{{ employee.employee_contact }}</td>
+        <td>
+            <a href="/edit/{{ employee.id }}"><span class="glyphicon glyphicon-pencil" >Edit</span></a>
+            <a href="/delete/{{ employee.id }}">Delete</a>
+        </td>
+    </tr>
+{% endfor %}
+    </tbody>
+</table>
+<br>
+<br>
+<center><a href="/emp" class="btn btn-primary">Add New Record</a></center>
+</body>
+</html>
+
+
+<div class="container mt-3">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Shoe name</th>
+        <th>Shoe image</th>
+        <th>Shoe price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for employee in employees %}
+
+      <tr>
+        <td>{{ shoes.shoes_name }}</td>
+        <td>{{ shoes.shoes_image }}</td>
+        <td>{{ shoes.shoes_price }}</td>
+        <td>
+            <a href="/edit/{{ employee.id }}"><span class="glyphicon glyphicon-pencil" >Edit</span></a>
+            <a href="/delete/{{ employee.id }}">Delete</a>
+        </td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+  <br>
+  <center><a href="/shoes" class="btn btn-primary">Add New Record</a></center>
+
+</div>
