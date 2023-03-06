@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="" />
+    <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,6 +109,14 @@
       <workItem from="1678032340480" duration="1661000" />
       <workItem from="1678034129384" duration="1082000" />
       <workItem from="1678035245597" duration="21000" />
+      <workItem from="1678035756969" duration="1011000" />
+      <workItem from="1678079804138" duration="211000" />
+      <workItem from="1678080056874" duration="1026000" />
+      <workItem from="1678081429137" duration="520000" />
+      <workItem from="1678082014942" duration="16000" />
+      <workItem from="1678082041637" duration="69000" />
+      <workItem from="1678082135479" duration="310000" />
+      <workItem from="1678082464281" duration="444000" />
     </task>
     <servers />
   </component>

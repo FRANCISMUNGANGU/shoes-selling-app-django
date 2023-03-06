@@ -13,18 +13,21 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm col-md col-lg col-xl">
-            <form method="post" class="col-7, post-form" action="/update/{{shoes.id}}">
+            <form method="post" class="post-form" action="/update/{{shoes.id}}">
                 {% csrf_token %}
                 <div class="mb-3 mt-3">
                     <label for="Image" class="form-label">Shoe name:</label>
+                    <br>
                     <input type="text" name="shoes_name" id="id_shoes_name" required maxlength="100" value="{{ shoes.shoes_name }}" />
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">Shoe URL:</label>
+                    <br>
                     <input type="text" name="shoes_image" id="id_shoes_email" required maxlength="10000000000000000000000000000000000000" value="{{ shoes.shoes_image }}" />
                 </div>
                 <div class="mb-3">
                     <label for="number" class="form-check-label">Shoes Price:</label>
+                    <br>
                     <input type="text" name="shoes_price" id="id_shoes_price" required maxlength="1000000" value="{{ shoes.shoes_price }}" />
                 </div>
                 <button type="submit" class="btn btn-success">Update</button>
@@ -33,5 +36,6 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
