@@ -1,0 +1,13 @@
+
+Using the shoe application : Add a button checkout to the shoe display actions
+i.e. where edit and delete is ,
+On click of this button carry the ID of the product , and  open a checkout.html page
+will contain a form with the following inputs , name of the product that should be displayed
+automatically (check update process for hint) , phone number : the user can input this and
+finally a price input showing the price of the shoe : this should also be displayed automatically
+(check update process for hint)
+Using the Mpesa Project example index method and processes on click of the above form submit button
+, run the method to prompt an stk push to the user phone number input.
+
+
+Deadline Monday 10:00AM :

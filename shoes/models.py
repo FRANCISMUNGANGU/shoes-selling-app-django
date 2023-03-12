@@ -7,3 +7,8 @@ class Shoes(models.Model):
     shoes_price = models.CharField(max_length=1000000)
     class Meta:
         db_table = 'shoes'
+
+class Persons(models.Model):
+    persons_phonenumber = models.CharField(max_length=20)
+    class Meta:
+        db_table = 'persons'
