@@ -10,10 +10,6 @@ urlpatterns = [
     path('update/<int:id>', views.update),
     path('delete/<int:id>', views.destory),
     path('check_out/<int:id>', views.check_out),
-    # path('', include('shoes.urls')),
-    # path('checkouttest', views.checkouttest),
-    # path('m_pesa', views.m_pesa),
-    path('mpesa', views.mpesa),
-    path('checkout/<int:id>', views.checkout),
+    path('mpesa/<int:id>', views.mpesa),
     path('', views.show)
 ]

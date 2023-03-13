@@ -38,7 +38,7 @@
       <tr>
         <th>Shoe name</th>
         <th>Shoe image</th>
-        <th>Shoe price</th>
+        <th>Shoe price in Ksh</th>
         <th>Actions</th>
       </tr>
     </thead>
@@ -56,7 +56,7 @@
             <a href="/delete/{{ shoes.id }}" class="btn btn-outline-danger">Delete</a>
             <br>
             <br>
-            <a href="/checkout/{{ persons.id }}{{ shoes.id }}" class="btn btn-outline-info">Checkout</a>
+            <a href="/check_out/{{ shoes.id }}" class="btn btn-outline-info">Checkout</a>
         </td>
       </tr>
       {% endfor %}

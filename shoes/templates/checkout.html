@@ -12,7 +12,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm col-md col-lg col-xl">
-            <form method="post" class="post-form" action="/checkout/{{shoes.id}}{{ persons.id }}">
+            <form method="post" class="post-form" action="/mpesa/{{shoes.id}}">
                 {% csrf_token %}
                 <div class="mb-3 mt-3">
                     <label for="Image" class="form-label">Shoe name:</label>
@@ -32,7 +32,7 @@
                 <div class="mb-3">
                     <label for="number" class="form-check-label">Phone number:</label>
                     <br>
-                    <input type="text" name="persons_phonenumber" id="id_persons_phonenumber" required maxlength="1000000" value="{{ persons.persons_phonenumber }}" />
+                    <input type="number" name="phonenumber" id="phonenumber" required maxlength="1000000"/>
                 </div>
                 <button type="submit" class="btn btn-success">Submit</button>
 

@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sellshoes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sellshoes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sellshoes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellshoes/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sellshoes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellshoes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/migrations/0002_alter_shoes_shoes_price.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/views.py" afterDir="false" />
     </list>
@@ -260,6 +251,24 @@
       <workItem from="1678634409553" duration="524000" />
       <workItem from="1678634945487" duration="567000" />
       <workItem from="1678635522127" duration="1655000" />
+      <workItem from="1678637197740" duration="685000" />
+      <workItem from="1678706545255" duration="3000" />
+      <workItem from="1678706660052" duration="145000" />
+      <workItem from="1678706833734" duration="14000" />
+      <workItem from="1678709131330" duration="112000" />
+      <workItem from="1678710060479" duration="54000" />
+      <workItem from="1678711451200" duration="51000" />
+      <workItem from="1678712506182" duration="20000" />
+      <workItem from="1678713265553" duration="318000" />
+      <workItem from="1678713840454" duration="178000" />
+      <workItem from="1678714051946" duration="581000" />
+      <workItem from="1678715450583" duration="53000" />
+      <workItem from="1678715564983" duration="24000" />
+      <workItem from="1678715620436" duration="120000" />
+      <workItem from="1678715795543" duration="160000" />
+      <workItem from="1678716045845" duration="360000" />
+      <workItem from="1678716515235" duration="21000" />
+      <workItem from="1678716554331" duration="190000" />
     </task>
     <servers />
   </component>
