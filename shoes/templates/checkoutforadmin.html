@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+    @media only screen and (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <form method="POST" class="form-control" action="/checkoutpay/{{ adminshoes.id }}">
+    {% csrf_token %}
+    <div class="form-group">
+       <p>Shoe Name: {{ adminshoes.shoesname }}</p>
+    </div>
+        <div class="form-group">
+       <p>Shoe image URL: {{ adminshoes.shoesimage }}</p>
+    </div>
+        <div class="form-group">
+       <p>Shoe Price: {{ adminshoes.shoesprice }}</p>
+    </div>
+     <div class="form-group">
+        <input class="form-control" type="text"  name="contact" id="contact" required maxlength="15" placeholder="Enter Mpesa Phone Number" />
+    </div>
+        <br>
+      <div class="form-group">
+    <button type="submit" class="btn btn-primary">Proceed to Checkout</button>
+    </div>
+
+</form>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

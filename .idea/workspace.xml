@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sellshoes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellshoes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/views.py" afterDir="false" />
     </list>
@@ -25,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -269,6 +273,35 @@
       <workItem from="1678716045845" duration="360000" />
       <workItem from="1678716515235" duration="21000" />
       <workItem from="1678716554331" duration="190000" />
+      <workItem from="1678730843981" duration="362000" />
+      <workItem from="1678731245526" duration="132000" />
+      <workItem from="1678794609915" duration="236000" />
+      <workItem from="1678794884749" duration="20000" />
+      <workItem from="1678794925704" duration="105000" />
+      <workItem from="1678795056614" duration="53000" />
+      <workItem from="1678795143972" duration="555000" />
+      <workItem from="1678795872518" duration="139000" />
+      <workItem from="1678796030580" duration="782000" />
+      <workItem from="1678796876574" duration="243000" />
+      <workItem from="1678797134949" duration="132000" />
+      <workItem from="1678797293005" duration="200000" />
+      <workItem from="1678797513685" duration="1162000" />
+      <workItem from="1678798848715" duration="64000" />
+      <workItem from="1678799079437" duration="379000" />
+      <workItem from="1678799511485" duration="39000" />
+      <workItem from="1678799580600" duration="228000" />
+      <workItem from="1678799836018" duration="321000" />
+      <workItem from="1678800254401" duration="545000" />
+      <workItem from="1678800922532" duration="76000" />
+      <workItem from="1678801015591" duration="35000" />
+      <workItem from="1678801131571" duration="230000" />
+      <workItem from="1678801444855" duration="947000" />
+      <workItem from="1678802929168" duration="1215000" />
+      <workItem from="1678804369032" duration="429000" />
+      <workItem from="1678804873415" duration="1234000" />
+      <workItem from="1678807640844" duration="2000" />
+      <workItem from="1678807829155" duration="1136000" />
+      <workItem from="1678808992756" duration="917000" />
     </task>
     <servers />
   </component>

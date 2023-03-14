@@ -29,6 +29,7 @@
     </a>
       <h class="justify-content-center" style="color: white"><strong>SELL YOUR SHOES!!!</strong></h>
       <a href="/shoes" class="btn btn-success">Add shoe you want to sell</a>
+      <a href="/display" class="btn btn-info">See admins shoes</a>
   </div>
 </nav>
 <div class="container mt-3">
@@ -38,7 +39,7 @@
       <tr>
         <th>Shoe name</th>
         <th>Shoe image</th>
-        <th>Shoe price in Ksh</th>
+        <th>Shoe price</th>
         <th>Actions</th>
       </tr>
     </thead>
@@ -48,7 +49,7 @@
       <tr>
         <td>{{ shoes.shoes_name }}</td>
         <td><img src="{{ shoes.shoes_image }}" width="150" height="150"></td>
-        <td>{{ shoes.shoes_price }}</td>
+        <td>Ksh {{ shoes.shoes_price }}</td>
         <td>
             <a href="/edit/{{ shoes.id }}" class="btn btn-outline-success"><span class="glyphicon glyphicon-pencil" >Edit</span></a>
             <br>
