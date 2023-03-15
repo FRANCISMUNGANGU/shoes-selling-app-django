@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sellshoes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellshoes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,6 +297,11 @@
       <workItem from="1678807640844" duration="2000" />
       <workItem from="1678807829155" duration="1136000" />
       <workItem from="1678808992756" duration="917000" />
+      <workItem from="1678809953125" duration="1953000" />
+      <workItem from="1678815475376" duration="193000" />
+      <workItem from="1678869729549" duration="1010000" />
+      <workItem from="1678871344688" duration="3109000" />
+      <workItem from="1678878858150" duration="2000" />
     </task>
     <servers />
   </component>
