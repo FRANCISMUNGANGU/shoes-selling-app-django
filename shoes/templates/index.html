@@ -6,7 +6,7 @@
     <title>LANDING PAGE</title>
     {#    allows us to load static files #}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <style>
     @media only screen and (max-width: 600px) {
@@ -15,6 +15,9 @@
         flex-direction: column;
     }
 
+}
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-men-s-textured-men-s-shoes-banner-poster-background-image_189947.jpg");
 }
 
 </style>
@@ -27,16 +30,16 @@
                 <form method="post" class="post-form" action="/shoes">
                     {% csrf_token %}
                     <div class="mb-3 mt-3">
-                        <label for="Image" class="form-label">Shoe image URL:</label>
+                        <label for="Image" class="form-label" style="color: white">Shoe image URL:</label>
                         <br>
                         {{ form.shoes_image }}
                         <div class="mb-3">
-                            <label for="name" class="form-label">Shoe name:</label>
+                            <label for="name" class="form-label" style="color: white">Shoe name:</label>
                             <br>
                             {{ form.shoes_name }}
                         </div>
                         <div class="mb-3">
-                            <label for="number" class="form-check-label">Price in Ksh:</label>
+                            <label for="number" class="form-check-label" style="color: white">Price in Ksh:</label>
                             <br>
                             {{ form.shoes_price }}
                         </div>

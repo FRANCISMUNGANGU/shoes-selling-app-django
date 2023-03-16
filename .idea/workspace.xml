@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sellshoes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellshoes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -307,6 +313,18 @@
       <workItem from="1678948107665" duration="778000" />
       <workItem from="1678948929608" duration="595000" />
       <workItem from="1678949591049" duration="29000" />
+      <workItem from="1678949640320" duration="1273000" />
+      <workItem from="1678958630905" duration="24000" />
+      <workItem from="1678959500600" duration="641000" />
+      <workItem from="1678960323973" duration="61000" />
+      <workItem from="1678960512936" duration="220000" />
+      <workItem from="1678960774696" duration="110000" />
+      <workItem from="1678961095734" duration="238000" />
+      <workItem from="1678961590247" duration="6000" />
+      <workItem from="1678961613490" duration="55000" />
+      <workItem from="1678962242984" duration="6667000" />
+      <workItem from="1678970678998" duration="597000" />
+      <workItem from="1678987103342" duration="2249000" />
     </task>
     <servers />
   </component>
