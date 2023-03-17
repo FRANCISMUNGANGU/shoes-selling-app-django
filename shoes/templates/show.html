@@ -19,7 +19,7 @@ flex-wrap: wrap;
 
     }
 body {
-background-image: url("https://cdn.wallpapersafari.com/72/2/UuO4JW.jpg");
+background-image: url("https://images.wallpaperscraft.com/image/single/fractal_rays_radiation_153915_1280x720.jpg");
 }
 nav {
 background-image: url("https://images.wallpaperscraft.com/image/single/fractal_rays_radiation_153915_1280x720.jpg");
@@ -43,19 +43,19 @@ background-image: url("https://images.wallpaperscraft.com/image/single/fractal_r
   <table class="table table-bordered">
     <thead>
       <tr>
-        <th>Shoe name</th>
-        <th>Shoe image</th>
-        <th>Shoe price</th>
-        <th>Actions</th>
+        <th style="color: white">Shoe name</th>
+        <th style="color: white">Shoe image</th>
+        <th style="color: white">Shoe price</th>
+        <th style="color: white">Actions</th>
       </tr>
     </thead>
     <tbody>
     {% for shoes in shoes%}
 
       <tr>
-        <td>{{ shoes.shoes_name }}</td>
+        <td style="color: white">{{ shoes.shoes_name }}</td>
         <td><img src="{{ shoes.shoes_image }}" width="150" height="150"></td>
-        <td>Ksh {{ shoes.shoes_price }}</td>
+        <td style="color: white">Ksh {{ shoes.shoes_price }}</td>
         <td>
             <a href="/edit/{{ shoes.id }}" class="btn btn-outline-success"><span class="glyphicon glyphicon-pencil" >Edit</span></a>
             <br>

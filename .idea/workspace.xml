@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +319,8 @@
       <workItem from="1678961613490" duration="55000" />
       <workItem from="1678962242984" duration="6667000" />
       <workItem from="1678970678998" duration="597000" />
-      <workItem from="1678987103342" duration="2249000" />
+      <workItem from="1678987103342" duration="2470000" />
+      <workItem from="1679032421969" duration="3603000" />
     </task>
     <servers />
   </component>
