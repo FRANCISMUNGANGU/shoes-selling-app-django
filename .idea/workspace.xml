@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2a7a8426-51c6-4d54-89a4-17825fbc8e23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sellshoes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellshoes/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/checkoutforadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/displayforadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/templates/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +325,12 @@
       <workItem from="1678962242984" duration="6667000" />
       <workItem from="1678970678998" duration="597000" />
       <workItem from="1678987103342" duration="2470000" />
-      <workItem from="1679032421969" duration="3603000" />
+      <workItem from="1679032421969" duration="3788000" />
+      <workItem from="1679054457468" duration="8000" />
+      <workItem from="1679055425495" duration="4000" />
+      <workItem from="1679059390369" duration="850000" />
+      <workItem from="1679136186751" duration="2437000" />
+      <workItem from="1679138671788" duration="2873000" />
     </task>
     <servers />
   </component>

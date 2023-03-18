@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.contrib import messages
 from shoes.forms import ShoesForm
 from shoes.models import Shoes, Adminshoe
 from django.http import HttpResponse
@@ -10,6 +11,7 @@ def shoes(request):
         if form.is_valid():
             try:
                 form.save()
+                messages.success(request, "Shoe added successfully")
                 return redirect('/show')
             except:
                 pass
@@ -30,6 +32,7 @@ def update(request, id):
     form = ShoesForm(request.POST, instance=shoes)
     if form.is_valid():
         form.save()
+        messages.info(request, "shoe edited successfully")
         return redirect('/show')
     return redirect(request, 'edit.html', {'shoes': shoes})
 
@@ -92,4 +95,5 @@ def checkoutpay(request, id):
 def destory(request, id):
     shoes = Shoes.objects.get(id=id)
     shoes.delete()
+    messages.warning(request, "Shoe deleted successfully")
     return redirect('/show')

@@ -24,6 +24,11 @@
   width: 400px;
 
 }
+.card-column {
+    height: 600px;
+    overflow-y: scroll;
+}
+
 body {
     background-image: url("https://lzd-img-global.slatic.net/g/p/a4ff305232fdf0c859db75bfb6862b0c.jpg_2200x2200q80.jpg_.webp");
 }
@@ -54,6 +59,7 @@ body {
     {% for adminshoes in adminshoes %}
 
         <div class="container mt-3">
+        <div class="card-column>">
   <div class="card" style="width:400px">
     <img class="card-img-top" src="{{ adminshoes.shoesimage }}" alt="Card image cap" width="400" height="400" >
     <div class="card-body">
@@ -63,6 +69,7 @@ body {
     </div>
   </div>
       </div>
+        </div>
 
     {% endfor %}
  </div>

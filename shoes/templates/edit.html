@@ -48,9 +48,9 @@ body {
                         <input type="text" name="shoes_image" id="id_shoes_email" required maxlength="10000000000000000000000000000000000000" value="{{ shoes.shoes_image }}" />
                     </div>
                     <div class="mb-3">
-                        <label for="number" class="form-check-label" style="color: white">Shoes Price:</label>
+                        <label for="number" class="form-check-label" style="color: white">Shoes Price in Ksh:</label>
                         <br>
-                        <input type="text" name="shoes_price" id="id_shoes_price" required maxlength="1000000" value="Ksh {{ shoes.shoes_price }}" />
+                        <input type="text" name="shoes_price" id="id_shoes_price" required maxlength="1000000" value="{{ shoes.shoes_price }}" />
                     </div>
                     <button type="submit" class="btn btn-success">Update</button>
 

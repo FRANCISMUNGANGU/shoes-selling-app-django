@@ -27,19 +27,18 @@ background-image: url("https://images.wsj.net/im-731144?width=1280&size=1.333333
             <form method="post" class="post-form" action="/mpesa/{{shoes.id}}">
                 {% csrf_token %}
                 <div class="mb-3 mt-3">
-                    <label for="Image" class="form-label" style="color: white">Shoe name:</label>
+                    <label for="Image" class="form-label" style="color: white">Shoe name: {{ shoes.shoes_name }}</label>
                     <br>
-                    <input type="text" name="shoes_name" id="id_shoes_name" required maxlength="100" value="{{ shoes.shoes_name }}" />
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label" style="color:white;">Shoe URL:</label>
+                    <label for="name" class="form-label" style="color:white;">Shoe URL: {{ shoes.shoes_image }}</label>
                     <br>
-                    <input type="text" name="shoes_image" id="id_shoes_email" required maxlength="10000000000000000000000000000000000000" value="{{ shoes.shoes_image }}" />
+
                 </div>
                 <div class="mb-3">
-                    <label for="number" class="form-check-label" style="color: white">Shoes Price:</label>
+                    <label for="number" class="form-check-label" style="color: white">Shoes Price: Ksh{{ shoes.shoes_price }}</label>
                     <br>
-                    <input type="text" name="shoes_price" id="id_shoes_price" required maxlength="1000000" value="{{ shoes.shoes_price }}" />
+
                 </div>
                 <div class="mb-3">
                     <label for="number" class="form-check-label" style="color: white">Phone number:</label>
