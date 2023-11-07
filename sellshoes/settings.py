@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'sellshoes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sellshoes',
+        'NAME': 'SELLSHOES',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306'
     }
 }
@@ -128,9 +128,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MPESA_ENVIRONMENT = 'sandbox'
-MPESA_CONSUMER_KEY = 'V68tnVAa05dzyIZajXzAYCVAmUnYXpNb'
-MPESA_CONSUMER_SECRET = 'J2Al0ps99Lzl6G7C'
+MPESA_CONSUMER_KEY = 'Naux0D4Dis2WAslHK9qZhN3HSVltJVhd'
+MPESA_CONSUMER_SECRET = 'ZQBAZ3awdcLJtTFb'
 MPESA_EXPRESS_SHORTCODE = '174379'
 MPESA_SHORTCODE_TYPE = 'paybill'
 MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
-MPESA_INITIATOR_USERNAME = 'SELL SHOES'
+MPESA_INITIATOR_USERNAME = 'DJANGO SHOE'
